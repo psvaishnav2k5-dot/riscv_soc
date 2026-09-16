@@ -1,0 +1,40 @@
+library verilog;
+use verilog.vl_types.all;
+entity soc_bus is
+    port(
+        clk             : in     vl_logic;
+        rst             : in     vl_logic;
+        cpu_addr        : in     vl_logic_vector(31 downto 0);
+        cpu_wdata       : in     vl_logic_vector(31 downto 0);
+        cpu_we          : in     vl_logic;
+        cpu_re          : in     vl_logic;
+        cpu_byte_en     : in     vl_logic_vector(3 downto 0);
+        cpu_rdata       : out    vl_logic_vector(31 downto 0);
+        dram_addr       : out    vl_logic_vector(31 downto 0);
+        dram_wdata      : out    vl_logic_vector(31 downto 0);
+        dram_we         : out    vl_logic;
+        dram_re         : out    vl_logic;
+        dram_byte_en    : out    vl_logic_vector(3 downto 0);
+        dram_rdata      : in     vl_logic_vector(31 downto 0);
+        gpio_addr       : out    vl_logic_vector(3 downto 0);
+        gpio_wdata      : out    vl_logic_vector(31 downto 0);
+        gpio_we         : out    vl_logic;
+        gpio_re         : out    vl_logic;
+        gpio_rdata      : in     vl_logic_vector(31 downto 0);
+        uart_addr       : out    vl_logic_vector(3 downto 0);
+        uart_wdata      : out    vl_logic_vector(31 downto 0);
+        uart_we         : out    vl_logic;
+        uart_re         : out    vl_logic;
+        uart_rdata      : in     vl_logic_vector(31 downto 0);
+        seg7_addr       : out    vl_logic_vector(3 downto 0);
+        seg7_wdata      : out    vl_logic_vector(31 downto 0);
+        seg7_we         : out    vl_logic;
+        seg7_re         : out    vl_logic;
+        seg7_rdata      : in     vl_logic_vector(31 downto 0);
+        timer_addr      : out    vl_logic_vector(4 downto 0);
+        timer_wdata     : out    vl_logic_vector(31 downto 0);
+        timer_we        : out    vl_logic;
+        timer_re        : out    vl_logic;
+        timer_rdata     : in     vl_logic_vector(31 downto 0)
+    );
+end soc_bus;

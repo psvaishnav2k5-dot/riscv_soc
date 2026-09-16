@@ -1,0 +1,45 @@
+# do debug.do 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu
+# -- Compiling module branch_comp
+# -- Compiling module control_unit
+# -- Compiling module data_mem
+# -- Compiling module fwd_unit
+# -- Compiling module hazard_unit
+# -- Compiling module imm_gen
+# -- Compiling module inst_mem
+# -- Compiling module pipe_reg
+# -- Compiling module program_counter
+# -- Compiling module reg_file
+# -- Compiling module top_core
+# -- Compiling module gpio_ctrl
+# -- Compiling module seg7_ctrl
+# -- Compiling module soc_bus
+# -- Compiling module timer_ctrl
+# -- Compiling module top_soc
+# -- Compiling module uart_ctrl
+# -- Compiling module tb_top_soc
+# 
+# Top level modules:
+# 	pipe_reg
+# 	tb_top_soc
+# vsim -novopt tb_top_soc 
+# Loading work.tb_top_soc
+# Loading work.top_soc
+# Loading work.top_core
+# Loading work.program_counter
+# Loading work.imm_gen
+# Loading work.reg_file
+# Loading work.control_unit
+# Loading work.branch_comp
+# Loading work.hazard_unit
+# Loading work.fwd_unit
+# Loading work.alu
+# Loading work.inst_mem
+# Loading work.soc_bus
+# Loading work.data_mem
+# Loading work.gpio_ctrl
+# Loading work.uart_ctrl
+# Loading work.seg7_ctrl
+# Loading work.timer_ctrl

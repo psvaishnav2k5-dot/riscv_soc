@@ -1,0 +1,39 @@
+﻿# Altera Quartus II
+db/
+incremental_db/
+output_files/
+simulation/
+timing/
+*.jdi
+*.pof
+*.sof
+*.pin
+*.qws
+*.summary
+*.smsg
+*.rpt
+*.done
+*.qdf
+*.bak
+*.cdf
+
+# Cadence Genus & Xcelium (ASIC Flow)
+fv/
+xcelium.d/
+waves.shm/
+*.log
+*.log.*
+*.log1
+*.cmd
+*.cmd1
+*.rpt
+*.sdf
+*.do
+*.vcd
+*.key
+*.history
+genus_temp*
+
+# OS Generated
+.DS_Store
+Thumbs.db
