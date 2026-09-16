@@ -20,9 +20,9 @@ This project was successfully simulated, synthesized for a 90nm ASIC technology 
 3. **FPGA Hardware:** Successfully mapped, routed, and tested on the **Terasic DE2-115 (Altera Cyclone IV E)** development board using Quartus II.
 
 ## Repository Structure
-* tl/core/ - The RISC-V CPU core files (ALU, Program Counter, Registers, Hazard Unit, etc.)
-* tl/soc/ - The memory-mapped peripherals and top-level SoC integration (UART, GPIO, Bus Decoder)
-* 	b_soc.v - Testbench for simulation
+* tl/core/ - The RISC-V CPU core files (ALU, Program Counter, Registers, Hazard Unit, etc.)
+* tl/soc/ - The memory-mapped peripherals and top-level SoC integration (UART, GPIO, Bus Decoder)
+* b_soc.v - Testbench for simulation
 * syn_risc.tcl - Synthesis script for Cadence Genus
 
 ## Getting Started
